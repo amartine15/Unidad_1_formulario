@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/assest/wave-haikei.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+:root{
+    --letra-titulos :'Rubik Microbe', cursive;
+}
+
+
+header{
+    height: 2cm;
+    background: transparent;
+    border-bottom: 1px solid gray;
+}
+
+header h1{
+    margin-left: 2cm;
+    font-family: var(--letra-titulos);
+    font-size: 1.2em;
+    padding-top: 0.5cm;
+}
+
+section{
+    width: 70%;
+    height: 8cm;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+
+section .contactanos{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contactanos h2{
+    font-family: var(--letra-titulos);
+    font-size: 1.5rem;
+}
+
+section .contacto-form{
+    height: 80%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+section .contacto-form form{
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 40% 10%;
+    justify-items:start;
+    align-items: center;
+    gap: 0.2cm;
+}
+
+section .contacto-form form div{
+
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+section .contacto-form form div label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+section .contacto-form .nombre-contac{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contacto-form .nombre-contac input{
+    border-radius: 8px 18px;
+    padding-left: 15px;
+}
+
+section .contacto-form .apellido-contac{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contacto-form .apellido-contac input{
+    border-radius: 8px 18px;
+    padding-left: 15px;
+}
+
+section .contacto-form .dni-contac{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contacto-form .dni-contac input{
+    border-radius: 8px 18px;
+    padding-left: 15px;
+}
+
+section .contacto-form .email-contac{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contacto-form .email-contac input{
+    border-radius: 8px 18px;
+    padding-left: 15px;
+}
+
+section .contacto-form .numero-contac{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contacto-form .numero-contac input{
+    border-radius: 8px 18px;
+    padding-left: 15px;
+}
+
+section .contacto-form .seguro-contac{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+}
+
+section .contacto-form .seguro-contac h3{
+    font-family: var(--letra-titulos);
+}
+
+section .contacto-form .seguro-contac p{
+    margin: 10px;
+    position: relative;
+    top: -0.2cm;
+    padding: 0;
+}
+
+section .contacto-form .btn{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contacto-form .btn input{
+    width: 4cm;
+    height: 1cm;
+    margin-top: 0.5cm;
+    border: solid 1px gray;
+    border-radius: 5px 5px;
+    box-shadow: 1px 1px 4px 3px black;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(65, 65, 212, 0.87);
+}
+
+section .contacto-form .btn input:hover{
+    background-color: rgb(49, 99, 49);
+    transition: all 1s ease;
+}
+
+footer{
+    height: 3cm;
+    background-color: rgb(18, 18, 104);
+    color: white;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    bottom: 0cm;
+    width: 100%;
+}
+
+footer p{
+    margin-left: 2cm;
+}
